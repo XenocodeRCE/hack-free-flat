@@ -1,0 +1,284 @@
+
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("hack-free.net"), url(http://hack-free.net) {
+
+    
+    
+    #content > DIV:nth-child(3) > DIV:first-child
+    {display: none  !important;}
+    
+     HTML > BODY > DIV:nth-child(3) > DIV,
+    logo
+    {display: none  !important;}
+
+    HTML > BODY > DIV:nth-child(3),
+    fc_logo, topwrap1
+    {display: none  !important;}
+   
+
+    #sidebar {display: none  !important;}
+    
+    #input, input.textbox, textarea, select, fieldset, legend, .button, .expcolimage, .lastpost, .hide, .upbox, .msgx, .unhide, .bigbutton, .bigbuttonred, .dbuttonn, .tborder, .thead, .navigation, .stats, .showthreadbox, .prefix1, .prefix2, .prefix3, .prefix4, .prefix6, .prefix7, .prefixvip, .prefixwarez, .postbitbox, .box1, .likebar, .edited, .likebutton, .repbox, .pm_alert, .red_alert, .info, .pmcount, .megaupgrade, .upgradeinfo, .premiumupgrade, .donate, .bbutton {border-radius: 0;}
+
+    #indexy {width: 100%;}
+    #container {
+    background: #1a1a1a none repeat scroll 0 0;
+    color: #1a1a1a;
+    margin: auto;
+    padding: 0 10px 10px;
+    text-align: left;
+    width: 90%;
+    }
+    
+    body {
+    background: #1a1a1a none repeat scroll 0 0;
+    color: #1a1a1a;
+    font-family: "roboto",sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    text-align: center;}
+    
+    .navigation {
+    background: #312644 none repeat scroll 0 0;
+    color: #312644;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 10px;
+    }
+    .thead {
+    background: #619ECB none repeat scroll 0 0;
+    color: #fff;
+    font-weight: normal;
+    }
+    .pm_alert {
+    background: #42663e none repeat scroll 0 0;
+    border-bottom: 0 solid #337531;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding: 10px 20px;
+    text-align: center;
+    }
+    #pm_notice > DIV:first-child > A > IMG
+    {display: none  !important;}
+    
+    .fa-bell::before {
+    content: "";
+    }
+    .fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0;
+    }
+    .alertbox {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #1a1a1a none repeat scroll 0 0;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) -moz-use-text-color;
+    border-image: none;
+    border-width: 1px 1px 1px medium;
+    color: #fff;
+    padding: 6px;
+    }
+    .wrap {
+    border-left: 20px solid #1a1a1a;
+    border-right: 20px solid #1a1a1a;
+    margin: 0 auto;
+    width: 90%;
+    }
+    .wrap2 {
+    background: #1a1a1a none repeat scroll 0 0;
+    min-width: 992px;
+    }
+    .topmenu {
+    background: #1a1a1a none repeat scroll 0 0;
+    color: #a0a0a0;
+    height: 45px;
+    }
+    .icon-thread-newfolder::before {
+    color: #0f5799;
+    content: "";
+    font-family: FontAwesome;
+    }
+    .fdticons {
+    background: #333333 none repeat scroll 0 0;
+    border-radius: 2px;
+    font-family: FontAwesome;
+    font-size: 16px;
+    padding: 3px 6px;
+    }
+    .trow1, .trow2 {
+    background: #333333 none repeat scroll 0 0;
+    border-bottom: 1px solid #0f0f0f;
+    border-top: 1px solid #303030;
+    }
+    
+    table {
+    color: #a0a0a0;
+    font-family: "roboto",sans-serif;
+    font-size: 12px;
+    }
+    .inferno_content {
+    color: #fff;
+    margin-bottom: 0;
+    margin-right: 10px;
+    margin-top: 5px;
+    overflow: auto;
+    padding-left: 5px;
+    word-wrap: normal;
+    }
+    .fa-hand-o-right::before {
+    content: "";
+    }
+    #container {
+    color: #a0a0a0;
+    text-align: left;
+    }
+    .tborder {
+    background: #333333 none repeat scroll 0 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    width: 100%;
+    }
+     #content > DIV:nth-child(5) > DIV:nth-child(3) > SPAN,
+    smalltext
+    {display: none  !important;}
+
+    #content > DIV:nth-child(5) > DIV:first-child > DIV,
+    thread
+    {display: none  !important;}
+    
+    .showthreadbox {
+    background: #281830 none repeat scroll 0 0;
+    border: 1px solid #281830;
+    height: 50px;
+    padding: 15px;
+    }
+    
+    .bigbutton {
+    background: #281830 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 18px;
+    padding: 4px 12px;
+    text-shadow: 0 0px 0 rgba(0, 0, 0, 0);
+    }
+    
+    .postbitavatar {
+    border-left: 0 solid #303030;
+    border-right: 0 solid #303030;
+    }
+    #pid494900 > SPAN > DIV:first-child > DIV,
+    postbitbox4
+    {display: none  !important;}
+    .postbitbox2 {
+    background: #222 none repeat scroll 0 0;
+    border-left: 0 solid #303030;
+    border-right: 0 solid #303030;
+    color: #a0a0a0;
+    height: 17px;
+    padding: 0;
+    }
+    #pid494900 > SPAN > DIV:nth-child(6),
+    postbitbox2
+    {display: none  !important;}
+    
+    .postbitbox1 {
+    background: #202020 none repeat scroll 0 0;
+    border-left: 0 solid #303030;
+    border-right: 0 solid #303030;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    color: #fff;
+    height: 5px;
+    padding: 15px;
+    }
+    element.style {
+    float: right;
+    margin-top: 10px;
+    }
+    
+    blockquote {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #252525 none repeat scroll 0 0;
+    border-bottom-right-radius: 0;
+    border-color: #619ECB;
+    border-image: none;
+    border-style: solid;
+    border-top-right-radius: 0;
+    border-width: 1px 1px 1px 10px;
+    margin: 0;
+    padding: 8px;
+    }
+    .pagination a {
+    background: #6c5c78 none repeat scroll 0 0;
+    margin-left: 1px;
+    }
+    .postbitbox3_offline {
+    background: #701313 none repeat scroll 0 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-left: 0 solid #dd4242;
+    border-right: 0 solid #dd4242;
+    color: #fff;
+    height: 18px;
+    padding: 4px;
+    }
+    .postbitbox3_online {
+    background: #7ecb61 none repeat scroll 0 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-left: 0 solid #449c41;
+    border-right: 0 solid #449c41;
+    color: #fff;
+    height: 18px;
+    padding: 4px;
+    }
+    HTML > BODY > DIV:nth-child(2) > DIV > DIV > FORM,
+    search_box
+    {display: none  !important;}
+    #showmenu > A
+    {display: none  !important;}
+
+    #resize > A
+    {display: none  !important;}
+    
+     #prostats_table > TABLE > TBODY > TR > TD:last-child,
+    trow2
+    {display: none  !important;}
+    .postbitavatar img {
+    border-radius: 0;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    }
+    
+    .green {
+    background: #36cf5e none repeat scroll 0 0;
+    border-radius: 0px;
+    color: white;
+    font-size: 13px;
+    font-style: normal;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    }
+    
+    .orange {
+    background: #e3882d none repeat scroll 0 0;
+    border-radius: 0px;
+    color: white;
+    font-size: 13px;
+    font-style: normal;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    }
+}
