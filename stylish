@@ -3,7 +3,9 @@
 @-moz-document domain("hack-free.net"), url(http://hack-free.net) {
 
     
-    
+    #content > CENTER > IFRAME
+    {display: none  !important;}
+
     #content > DIV:nth-child(3) > DIV:first-child
     {display: none  !important;}
     
